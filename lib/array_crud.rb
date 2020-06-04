@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
- ["brown", "sally","tata","rj"]
+ line_friends = ["brown", "sally","tata","rj"]
 end
 
 def add_element_to_end_of_array(array, element)
-  ["brown", "sally","tata","rj"]
+  line_friends.push
 end
 
 def add_element_to_start_of_array(array, element)
